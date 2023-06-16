@@ -19,17 +19,17 @@ in {
 
     vim.nnoremap =
       {
-        "<leader>ff" = "<cmd> Telescope find_files<CR>";
-        "<leader>fg" = "<cmd> Telescope live_grep<CR>";
-        "<leader>fb" = "<cmd> Telescope buffers<CR>";
-        "<leader>fh" = "<cmd> Telescope help_tags<CR>";
-        "<leader>ft" = "<cmd> Telescope<CR>";
+        "<leader>pf" = "<cmd> Telescope find_files<CR>";
+        "<leader>pw" = "<cmd> Telescope live_grep<CR>";
+        "<leader>pb" = "<cmd> Telescope buffers<CR>";
+        "<leader>vh" = "<cmd> Telescope help_tags<CR>";
+        "<C-p>" = "<cmd> Telescope<CR>";
 
-        "<leader>fvcw" = "<cmd> Telescope git_commits<CR>";
-        "<leader>fvcb" = "<cmd> Telescope git_bcommits<CR>";
-        "<leader>fvb" = "<cmd> Telescope git_branches<CR>";
-        "<leader>fvs" = "<cmd> Telescope git_status<CR>";
-        "<leader>fvx" = "<cmd> Telescope git_stash<CR>";
+        #"<leader>fvcw" = "<cmd> Telescope git_commits<CR>";
+        #"<leader>fvcb" = "<cmd> Telescope git_bcommits<CR>";
+        #"<leader>fvb" = "<cmd> Telescope git_branches<CR>";
+        #"<leader>fvs" = "<cmd> Telescope git_status<CR>";
+        #"<leader>fvx" = "<cmd> Telescope git_stash<CR>";
       }
       // (
         if config.vim.lsp.enable

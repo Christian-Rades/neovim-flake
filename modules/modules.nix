@@ -7,7 +7,9 @@
     ./completion
     ./theme
     ./core
+    ./copilot
     ./basic
+    ./my-keys
     ./statusline
     ./tabline
     ./filetree

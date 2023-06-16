@@ -131,6 +131,10 @@
       url = "github:ray-x/cmp-treesitter";
       flake = false;
     };
+    gh-copilot = {
+      url = "github:zbirenbaum/copilot.lua";
+      flake = false;
+    };
 
     # snippets
     vim-vsnip = {
@@ -290,6 +294,7 @@
       "cmp-vsnip"
       "cmp-path"
       "cmp-treesitter"
+      "gh-copilot"
       "crates-nvim"
       "vim-vsnip"
       "nvim-code-action-menu"
@@ -384,6 +389,8 @@
         };
         vim.statusline.lualine.enable = overrideable true;
         vim.theme.enable = true;
+        vim.theme.name = "gruvbox";
+        vim.theme.style = "light";
         vim.autopairs.enable = overrideable true;
         vim.autocomplete = {
           enable = overrideable true;
